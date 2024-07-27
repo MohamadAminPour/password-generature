@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>password generatuer</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="password">
+            <h1 class="title">Password <span class="titleSpan">generatuer</span></h1>
+            <span class="sub-title">You Can Create Strong Password With This App !</span>
+
+            <div class="Password-box__container">
+                <select class="Password-level btn">
+                    <option value="Level">Level</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                    <option value="Difficult">Difficult</option>
+                </select>
+                <select class="Password-length btn">
+                    <option value="Length">Length</option>
+                    <option value="8">8</option>
+                    <option value="12">12</option>
+                    <option value="16">16</option>
+                </select>
+                <div class="Password-box">
+                    <input type="text" class="Password-box__input" placeholder="...your password">
+                    <i class='bx bx-copy Password-box__icon' title="Copy"></i>
+                    <span class="copied">copied ✔️</span>
+                </div>
+            </div>
+
+            <button class="generateBtn">
+                generate
+                <i class='bx bxs-hourglass-bottom'></i>
+            </button>
+        </div>
+
+        <div class="image">
+            <img src="image/1.png" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
